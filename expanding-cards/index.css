@@ -1,0 +1,30 @@
+.expanding-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    transition: width 1s;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.purple {
+    background-color: purple;
+}
+
+.active {
+    width: 200px;
+}
